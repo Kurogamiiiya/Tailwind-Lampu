@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Lampu</title>
+</head>
+
+<body class="p-5" style="background-color: rgb(45, 49, 48);">
+
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong>LAMPU</h1>
+    </div>
+    
+    <div class="grid  p-5 grid-cols-2 sm:grid-cols-5 bg-gray-200 gap-5 justify-items-center">
+        
+        <!-- lampu 1 -->
+        <div>
+            <img id="img1" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn1"  onchange="changeImg('img1',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 2 -->
+        <div>
+            <img id="img2" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn2"  onchange="changeImg('img2',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        </div>
+
+        <!-- lampu 3 -->
+        <div>
+            <img id="img3" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn3"  onchange="changeImg('img3',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        </div>
+
+        <!-- lampu 4 -->
+        <div>
+            <img id="img4" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn4"  onchange="changeImg('img4',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 5 -->
+        <div>
+            <img id="img5" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn5"  onchange="changeImg('img5',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 6 -->
+        <div>
+            <img id="img6" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn6"  onchange="changeImg('img6',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 7 -->
+        <div>
+            <img id="img7" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn7"  onchange="changeImg('img7',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 8 -->
+        <div>
+            <img id="img8" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn8"  onchange="changeImg('img8',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 9 -->
+        <div>
+            <img id="img9" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn9"  onchange="changeImg('img9',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+
+        </div>
+
+        <!-- lampu 10 -->
+        <div>  
+            <img id="img10" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn10"  onchange="changeImg('img10',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br><br>
+
+    <!-- Ruangan Keluarga -->   
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong>Ruangan Keluarga</h1>
+    </div>
+    <div class="grid grid-cols-3 bg-gray-200 justify-items-center">
+        <!-- lampu 11 -->
+        <div>
+            <img id="img11" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn11"  onchange="changeImg('img11',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 12 -->
+        <div>
+            <img id="img12" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn12"  onchange="changeImg('img12',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 13 -->
+        <div>
+            <img id="img13" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn13"  onchange="changeImg('img13',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <div></div>
+
+        
+    </div>
+    <div class="grid grid-cols-1 bg-gray-200 justify-items-center">
+
+        <div class="relative  mt-3 inline-block">
+            <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn13"  onchange="changeImgs('img11','img12','img13','img13',this)"/>
+            <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+        </div>
+    
+    </div>
+
+    <br>
+
+    <!-- Ruang Makan -->
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong>Ruang Makan</h1>
+    </div>
+    <div class="grid grid-cols-1 bg-gray-200 justify-items-center">
+
+
+
+        <!-- lampu 14 -->
+        <div>
+            <img id="img14" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn14"  onchange="changeImg('img14',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <br>
+
+    <!-- Ruang Tidur -->
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong>Ruang Tidur</h1>
+    </div>
+    <div class="grid grid-cols-2 bg-gray-200 justify-items-center">
+
+
+        <!-- lampu 15 -->
+        <div>
+            <img id="img15" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn15"  onchange="changeImg('img15',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 16 -->
+        <div>
+            <img id="img16" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn16"  onchange="changeImg('img16',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        
+
+    </div>
+    <div class="grid grid-cols-1 bg-gray-200 justify-items-center">
+
+        <div class="relative  mt-3 inline-block">
+            <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn16"  onchange="changeImgs('img15','img16','img16','img16',this)"/>
+            <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+        </div>
+    
+    </div>
+
+    <br>
+
+    <!-- Ruangan Tamu -->   
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong>Ruang Tamu</h1>
+    </div>
+    <div class="grid grid-cols-4 bg-gray-200 justify-items-center">
+        <!-- lampu 17 -->
+        <div>
+            <img id="img17" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn17"  onchange="changeImg('img17',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 18 -->
+        <div>
+            <img id="img18" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn18"  onchange="changeImg('img18',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 19 -->
+        <div>
+            <img id="img19" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn19"  onchange="changeImg('img19',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <!-- lampu 20 -->
+        <div>
+            <img id="img20" src="img/off.gif" alt="">
+            
+            <div class="relative ml-6 mt-3 inline-block">
+                <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn20"  onchange="changeImg('img20',this)"/>
+                <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+            </div>
+        
+        </div>
+
+        <div></div>
+
+        
+    </div>
+    <div class="grid grid-cols-1 bg-gray-200 justify-items-center">
+
+        <div class="relative  mt-3 inline-block">
+            <input type="checkbox" class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-blue-700 checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" id="btn20"  onchange="changeImgs('img17','img18','img19','img20',this)"/>
+            <span class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-blue-900"></span>
+        </div>
+    
+    </div>
+
+    <div class="bg-blue-800 text-white text-center">
+        <h1><strong><a href="http://github.com/Kurogamiiiya">@Kurogamiiiya</a></h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
